@@ -22,3 +22,19 @@
         border-radius: 10px;
     }
 }  
+
+
+
+.detalles{
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    color: black;
+    font-weight: 100;
+    cursor: pointer;
+
+    &:hover{
+        background-color: rgb(204, 231, 255);
+    }
+
+}

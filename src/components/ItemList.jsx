@@ -31,7 +31,9 @@ const ItemList = () => {
             <h4>{item.name}</h4>
             <img src={item.image} alt="" />
             <p>Precio: ${item.price}</p>
+
             <ItemCount stock={item.stock} initial={1} onAdd={onAdd}/>
+            <div className='detalles'>Ver detalles</div>
         </div>
 
       )) }
