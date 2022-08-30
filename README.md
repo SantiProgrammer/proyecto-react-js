@@ -1,3 +1,4 @@
 * Se sumaron las consignas de agrega componentes:
 
-1.- ItemCount.jsx
+1.- ItemList.jsx
+2.- Item.jsx

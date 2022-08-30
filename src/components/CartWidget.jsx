@@ -1,4 +1,4 @@
-
+/* CartWidget */
 import carritoimg from "../img/carrito.png";
 
 function CartWidget() {

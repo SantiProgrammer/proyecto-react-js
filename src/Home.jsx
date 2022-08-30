@@ -1,17 +1,18 @@
-
-import Navbar from './components/Navbar';
 import './style/css/style.css';
-import ItemListContainer from './components/ItemListContainer.jsx';
+import Navbar from './components/Navbar';
+import ItemListContainer from './containers/ItemListContainer';
 
 const Home = () => {
   return(
     <>
     <div className='app'>
-    <Navbar />
-      <h1>Aplicacion Web</h1>
-      <hr/>
-      <ItemListContainer greetin="Hola Mundo ItemListContainer!!!"/>
-      <hr/>
+      <Navbar />
+      <h1>Productos:</h1>
+      <div className='productos-container'>
+      <ItemListContainer/>
+      </div>
+
+
     </div>
     </>
  );
