@@ -1,4 +1,4 @@
-export const data = [
+export const products = [
   {
     id: 1,
     name: "Laptop Acer",
@@ -9,6 +9,7 @@ export const data = [
     categoryId: 'Sin alcohol',
     brand: '',
     min: 1,
+    dato: 222,
     category: "laptop"
   },
   {
