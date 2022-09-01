@@ -13,7 +13,11 @@ const ItemDetailContainer = () => {
     }, []);
 
     return  (
-        <ItemDetail item={dato} />
+        <ItemDetail 
+        item={dato} 
+        img={dato.image}
+ 
+        />
     );
 }
 
